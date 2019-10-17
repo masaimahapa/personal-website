@@ -1,3 +1,11 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    box-sizing: border-box;
+}
 .container {
     display: grid;
     grid-template-rows: auto;
@@ -7,12 +15,12 @@
 
 .tools {
     display: grid;
-    grid-template-rows: 100px 100px;
-    grid-template-columns: 100px 100px 100px;
-    grid-gap: 100px 200px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
     position: relative;
-    left: 100px;
-
+    width: 70%;
+    margin: 0 auto;
 }
 
 .round {
@@ -72,6 +80,7 @@ body {
 
 #welcome {
     background-image: url('../pictures/paris_bridge.jpg');
+    background-position: center;
     background-size: cover;
     height: 600px;
 }

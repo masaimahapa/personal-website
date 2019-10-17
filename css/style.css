@@ -1,3 +1,20 @@
+.container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+}
+
+.tools {
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 100px 200px;
+    position: relative;
+    left: 100px;
+
+}
+
 .round {
     border-radius: 50%;
     border-width: 20px;
@@ -92,6 +109,7 @@ footer {
 
 .form {
     text-align: center;
+    background-color: blueviolet
 }
 
 form input {

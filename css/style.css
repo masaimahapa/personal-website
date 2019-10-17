@@ -21,6 +21,7 @@ img {
     position: relative;
     width: 70%;
     margin: 0 auto;
+    background-position: center;
 }
 
 .round {
@@ -83,6 +84,7 @@ body {
     background-position: center;
     background-size: cover;
     height: 600px;
+    width: 100%;
 }
 
 footer {
@@ -95,6 +97,7 @@ footer {
     background-image: url('../pictures/masai-tribe.jpg');
     color: white;
     text-align: center;
+    background-position: center;
     
 }
 
@@ -130,6 +133,14 @@ footer{
     background-color: yellow;
 }
 
-#about-text {
-    
-}
+@media only screen and (max-width: 600px) {
+    .tools {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+        position: relative;
+        width: 70%;
+        margin: 0 auto;
+    }
+  }

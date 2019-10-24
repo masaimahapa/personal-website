@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 img {
     width: 100%;
     box-sizing: border-box;
@@ -60,8 +64,8 @@ ul {
     width: 30px;
 }
 
-body {
-    background-image: 'pictures/paris_bridge.jpg';
+/* < body { */
+    /* background-image: 'pictures/paris_bridge.jpg'; */
     
 }
 
@@ -71,12 +75,20 @@ body {
     background-color: lavender;
 }
 
+#logo:hover {
+    height: 160px;
+    widht: 160px;
+    background-color: lavender;
+}
+
 
 .text-zone {
-    padding: 40px 40px;
-    text-align: center;
-    color: rgb(2, 26, 92);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*padding: 10px 10px;
+     text-align: center; */
+    position: relative;
+    left: 8em;
+    color: rgb(31, 26, 1);
+    font-family: cursive;
 }
 
 #welcome {
@@ -101,6 +113,12 @@ footer {
     
 }
 
+#about-text {
+    text-align: center;
+    font: 20em;
+
+}
+
 #skills {
     height: 500px;
     background-size: cover;
@@ -121,7 +139,10 @@ footer {
 
 .form {
     text-align: center;
-    background-color: blueviolet
+    background-image: url('../pictures/contact.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: black;
 }
 
 form input {
@@ -143,4 +164,9 @@ footer{
         width: 70%;
         margin: 0 auto;
     }
+  }
+
+  #socials {
+      position: absolute;
+      bottom: 5em;
   }

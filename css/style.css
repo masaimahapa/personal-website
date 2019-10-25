@@ -87,8 +87,9 @@ ul {
      text-align: center; */
     position: relative;
     left: 8em;
-    color: rgb(31, 26, 1);
+    color: purple;
     font-family: cursive;
+    margin-top: 3em;
 }
 
 #welcome {
@@ -97,10 +98,13 @@ ul {
     background-size: cover;
     height: 600px;
     width: 100%;
+
 }
 
 footer {
     text-align: center;
+    background-color: lightgrey;
+    color: black;
 }
 
 #About-me {
@@ -150,9 +154,7 @@ form input {
     height: 2rem;
 }
 
-footer{
-    background-color: yellow;
-}
+
 
 @media only screen and (max-width: 600px) {
     .tools {
@@ -169,4 +171,8 @@ footer{
   #socials {
       position: absolute;
       bottom: 5em;
+  }
+
+  h1 {
+      font-size: 3em;
   }
